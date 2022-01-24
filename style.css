@@ -1,7 +1,7 @@
 .btn1{
-    background-color: blue;
+    background-color: rgb(42, 42, 231);
     font-size: medium;
-    font-weight: 500;
+    font-weight: 600;
     height: 50px;
     width: 100px;
     border-radius: 5px;
@@ -10,11 +10,27 @@
 }
 
 .btn2{
-    background-color: red;
+    background-color: rgb(221, 7, 7);
     font-size: medium;
-    font-weight: 500;
+    font-weight: 600;
     height: 50px;
     width: 100px;
     border-radius: 5px;
     color: white;
 }
+
+.container{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.box-container{
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+
+
+
